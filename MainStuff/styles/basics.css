@@ -1,5 +1,7 @@
 /* Basis = Mobile */
-body { font-size: 14px; }
+body {
+  background: linear-gradient(77deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
 nav { flex-direction: column; }
 p {font-family: Arial, Helvetica, sans-serif;}
 img { 
@@ -7,7 +9,13 @@ img {
     height: auto;
 }
 p {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+    text-align: center;
 }
 
 button {

@@ -4,7 +4,10 @@ div.startPlaying {
   gap: 1vw; /* Abstand zwischen Buttons */
 }
 
-
+.titleDiv {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
 /*
 div {
   padding-top: 0;
@@ -22,8 +25,5 @@ div {
 vertical-align: middle;
 margin-top: 25vh;
 }
-.titleDiv {
-  padding-top: .01vw;
-  padding-bottom: .01vw;
-}
+
 */
