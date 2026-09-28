@@ -1,11 +1,34 @@
 div.startPlaying {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1vw; /* Abstand zwischen Buttons */
+  flex-wrap:nowrap;
+  justify-content: center;
+  gap: 5%;
+
 }
 
+div.playList {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  background-color: #0000FF;
+  width: 100%;
+  border: 5px solid #0000FF;
+  border-radius: 1vw;
+  box-shadow: 0.5vh 0.5vh 0.75vh black;
 
-/*
+}
+div.content {
+  width: 200px;
+  height: 200px;
+  background-color: #ff7f00;
+  border-radius: 1vw;
+  box-shadow: 0.5vh 0.5vh 0.75vh rgb(255, 191, 0);
+  margin:15px;
+  justify-content: center;
+  align-items: center;
+
+}
+
 div {
   padding-top: 0;
   padding-bottom: 0;
@@ -13,6 +36,7 @@ div {
   padding-right: 0;
   margin-bottom: 50px;
 }
+/*
 #headDiv {
   padding-top: 1vw;
   padding-left: 0.5vw;
@@ -22,8 +46,8 @@ div {
 vertical-align: middle;
 margin-top: 25vh;
 }
+*/
 .titleDiv {
   padding-top: .01vw;
   padding-bottom: .01vw;
 }
-*/
