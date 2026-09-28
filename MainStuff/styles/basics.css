@@ -10,7 +10,13 @@ img {
     height: auto;
 }
 p {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+    text-align: center;
 }
 
 button {
