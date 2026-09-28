@@ -1,6 +1,7 @@
 /* Basis = Mobile */
-body {
-  background: linear-gradient(77deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+body { 
+  font-size: 14px; 
+  background-color: #ff7f00;
 }
 nav { flex-direction: column; }
 p {font-family: Arial, Helvetica, sans-serif;}
@@ -53,14 +54,14 @@ a.buttonLink {
   white-space: nowrap;
   font-family: Helvetica;
   font-weight: bold;
+  font-size: 15px;
   text-decoration-line: none;
   padding-top: 3vh;
   padding-bottom: 3vh;
-  padding-left: 3vw;
+  padding-left: 5vw;
   padding-right: 3vw;
   border: 1vw;
-  color: #fff;
-  font-size: 1.5vw;
+  color: #000000;
   background-color: #4646ff;
   border-top-left-radius: 1vw;
   border-bottom-right-radius: 1vw;
