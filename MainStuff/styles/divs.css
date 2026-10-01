@@ -10,7 +10,7 @@ div.playList {
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
-  background-color: #0000FF;
+  background-color: #000000;
   width: 100%;
   border: 5px solid #0000FF;
   border-radius: 1vw;
@@ -18,11 +18,13 @@ div.playList {
 
 }
 div.content {
+  display: table;
+  vertical-align: middle;
   width: 200px;
   height: 200px;
-  background-color: #ff7f00;
+  background-color: #000000;
   border-radius: 1vw;
-  box-shadow: 0.5vh 0.5vh 0.75vh rgb(255, 191, 0);
+  box-shadow: 0.0vh 0.0vh 1vh #0000ff;
   margin:15px;
   justify-content: center;
   align-items: center;

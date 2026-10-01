@@ -9,13 +9,13 @@ p {
   margin-right: auto;
   cursor: default;
   text-align: center;
+  color: rgb(255, 255, 255);
+
 }
 
 .title {
-  color: rgb(0, 0, 0);
   font-size: 30px;
   font-weight: bold;
-  font-family: Commando;
 }
   
 .text {
@@ -23,11 +23,12 @@ p {
   font-size: 15px;
   font-weight: 100;
   margin-bottom: 50px;
-  color: rgb(0, 0, 0);
 }
 p.content {
   font-Size: 50px;
   font-weight: bold;
   text-decoration: underline;
+  display: table-cell;
+  vertical-align: middle;
 }
 
