@@ -24,7 +24,7 @@ div.content {
   height: 200px;
   background-color: #000000;
   border-radius: 1vw;
-  box-shadow: 0.0vh 0.0vh 1vh #0000ff;
+  box-shadow: 0vh 0vh 2vh #0000ff;
   margin:15px;
   justify-content: center;
   align-items: center;
